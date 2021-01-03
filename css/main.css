@@ -1,0 +1,221 @@
+/*
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'Source Code Pro', monospace;
+
+Main Background
+https://unsplash.com/photos/MzPkseAUb2g
+by
+Dave Hoefler
+
+About Us Background
+https://unsplash.com/photos/R48mMIfSZI4
+by Akhila Katuri
+
+
+
+http://www.pixeden.com/icon-fonts/social-icon-font-set
+*/
+
+/* Baseline formatting for body */
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 30px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+/* Setup classes for dividing up page width in various ways */
+/* Reset float after each full-width area */
+.full-width {
+  width: 1200px;
+  overflow: auto;
+  margin: 0 auto;
+  height: auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+  height: auto;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+.two-third-width {
+  width: 800px;
+
+}
+
+/***** HEADER *****/
+header {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  overflow: auto;
+  height: 850px;
+}
+
+
+header h1 {
+  color: #ffffff;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 72px;
+  padding-left: 90px;
+  padding-bottom: 50px;
+}
+
+.heading-image {
+  background-image: url("../img/dave-hoefler-MzPkseAUb2g-unsplash_mirror.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+ .site-title {
+  display: inline-block;
+  padding: 30px 0 30px 0;
+  }
+
+/***** NAVIGATION *****/
+#nav {
+  float:right;
+}
+
+#nav ul li{
+  display: inline-block;
+}
+
+#nav ul li a {
+  color: #ffffff;
+  padding-left: 50px;
+  text-decoration: none;
+}
+
+/* Baseline formatting of  HTML tags */
+h2 {
+  color: #fa0075;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 60px 0;
+}
+
+h3 {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+/***** ARTICLE Divides up major sections of page *****/
+article {
+  margin: 50px 0 50px 0;
+
+}
+
+/***** PORTFOLIO *****/
+#portfolio {
+  height: 1700px;
+}
+
+/***** SECTION divides up sub-sections of ARTICLE *****/
+section {
+  /* Float needs to be cleared after each section so only pairs of thumbnail and description are on each line */
+  clear: both;
+  padding: 25px 0 25px 0;
+}
+
+.site-thumbnail {
+  padding: 0 0 3px 0;
+  margin: 0;
+
+}
+
+.site-desc p {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  padding-right: 24px;
+}
+
+
+/***** ABOUT *****/
+#about {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  height: auto;
+  height: 600px;
+}
+
+#about .full-width {
+  background-image: url("../img/akhila-katuri-R48mMIfSZI4-unsplash_mirror.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#about h2 {
+  padding: 30px 0 30px 0;
+
+}
+
+#about h3 {
+  color: #000000;
+  padding-left: 24px;
+}
+
+#about ul {
+  line-height: 24px;
+}
+
+#about ul li {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  line-height: 28px;
+}
+
+#about p {
+  font-size: 18px;
+  padding-bottom: 80px;
+  padding-left: 24px;
+}
+
+/***** CONTACT *****/
+#contact {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  text-align: center;
+  height: 200px;
+}
+
+#contact h3 {
+  font-weight: bold;
+}
+
+#contact p {
+  font-weight: normal;
+}
+
+.site-footer {
+  text-align: center;
+  font-size: 16px;
+  background-color: #000000;
+  color: #ffffff;
+}
