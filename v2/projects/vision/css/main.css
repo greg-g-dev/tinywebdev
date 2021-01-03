@@ -1,0 +1,71 @@
+body {
+  background-color: #E8E8E8;
+}
+
+#vision-board {
+  width: 1200px;
+  height: 850px;
+  margin: auto;
+  overflow: auto;
+  background-image: url("../img/background.png");
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.block {
+  float: left;
+  width: 400px;
+  box-sizing: border-box;
+}
+
+.small-block {
+  height: 210px;
+  padding: 40px;
+
+}
+
+.large-block {
+  height: 430px;
+  padding: 80px 40px;
+}
+
+.center-block {
+  text-align: center;
+}
+
+.right-block {
+  text-align: right;
+}
+
+.left-block {
+  text-align: left;
+}
+
+.light-bg{
+  background-color: #FFFFFF;
+}
+
+.dark-bg {
+  background-color: #3B3B3B;
+  color: #FFFFFF;
+}
+
+.box-title {
+  background-color: #FFF44F;
+}
+
+.box-goal {
+  font-size: 38px;
+  text-transform: capitalize;
+}
+
+.vision-year {
+font-family: 'Permanent Marker', sans-serif;
+font-size: 30px;
+
+}
+
+.vision-title {
+  font-size: 30px;
+}
