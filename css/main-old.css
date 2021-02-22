@@ -1,0 +1,407 @@
+/*
+font-family: 'Montserrat', sans-serif;
+
+font-family: 'Source Code Pro', monospace;
+
+Main Background
+https://unsplash.com/photos/MzPkseAUb2g
+by
+Dave Hoefler
+
+About Us Background
+https://unsplash.com/photos/R48mMIfSZI4
+
+https://unsplash.com/photos/SkiIyI8ySwM
+
+by Akhila Katuri
+
+
+
+http://www.pixeden.com/icon-fonts/social-icon-font-set
+*/
+
+/* Baseline formatting */
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 2em;
+  margin: 0;
+  padding: 0;
+}
+
+/* Setup classes for dividing up page width in various ways */
+/* Reset float after each full-width area */
+.full-width-content {
+  width: 100%;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.third-width {
+  width: 33%;
+}
+
+.two-third-width {
+  width: 67%;
+
+}
+
+/***** HEADER *****/
+header {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+
+
+.heading-image {
+  background-image: url("../img/dave-hoefler-MzPkseAUb2g-unsplash_mirror.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.heading-image-text-content {
+  width: 80%;
+  padding-left: 20px;
+}
+
+.heading-image-text-content h1 {
+  color: #ffffff;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.75em;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+
+ .site-title {
+  padding: 30px 0 30px 0;
+  }
+
+/***** NAVIGATION *****/
+.nav ul {
+  font-size: .75em;
+  margin: 0;
+  padding: 0;
+}
+
+.nav ul li {
+  padding: 0 15px;
+}
+
+.nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Baseline formatting of  HTML tags */
+h2 {
+  color: #fa0075;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 2.25em;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+  padding: 0 0 60px 0;
+}
+
+h3 {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.25em;
+  font-weight: bold;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+/***** ARTICLE Divides up major sections of page *****/
+article {
+  margin: 50px 0 50px 0;
+
+}
+
+/***** PORTFOLIO *****/
+
+
+/***** SECTION divides up sub-sections of ARTICLE *****/
+section {
+  padding: 25px 0;
+}
+
+.site-thumbnail {
+  padding: 0 0 3px 0;
+  margin: 0;
+
+}
+
+.site-desc p {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  padding: 8px 20px;
+  margin: 0;
+}
+
+
+/***** ABOUT *****/
+#about {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.about-content {
+  margin: 0 20px;
+}
+
+.about-content-left {
+  background-color: #f3f4f8;
+  border-radius: 5px;
+  padding: 0;
+}
+
+.about-content-right {
+  background-color: #456e91;
+  border-radius: 5px;
+  margin: 50px 0 0 0;
+}
+
+.about-content h3 {
+  margin-left: 20px;
+}
+
+.about-content-left h3,
+.about-content-right h3 {
+  color: #000000;
+  margin-top: 0;
+}
+
+.about-content-img-left {
+  background-image: url("../img/akhila-katuri-SkiIyI8ySwM-unsplash-top-crop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.about-content-img-right {
+  background-image: url("../img/akhila-katuri-R48mMIfSZI4-unsplash_right-mirror-scaled.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.about-text-content-left ul,
+.about-text-content-right ul {
+  margin-bottom: 200px;
+  list-style: none;
+}
+
+.about-text-content-left ul li {
+  margin-left: 100px;
+}
+
+.about-text-content-right ul li {
+  margin: 0;
+  width: 75%;
+}
+
+.about-text-content-left ul li,
+.about-text-content-right ul li {
+  font-size: 1em;
+  font-weight: normal;
+  margin-bottom: 8px;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+.about-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 20px;
+}
+
+/***** CONTACT *****/
+#contact {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+.hire-content,
+.social-content,
+.meet-content {
+  margin: 50px 0;
+}
+
+.contact-title {
+  font-weight: bold;
+}
+
+.contact-detail {
+  font-weight: normal;
+}
+
+.site-footer {
+  text-align: center;
+  font-size: .75em;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* ---------- Flex box styling ----------- */
+
+.heading-container,
+.nav ul,
+.nav ul li,
+.portfolio-container,
+.portfolio-content,
+.portfolio-site-title,
+.site-container,
+.site-content,
+.about-container,
+.contact-container
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.site-thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-thumbnail,
+.site-content {
+  width: 90%;
+}
+
+.heading-image-text-content,
+.site-desc,
+.about-content,
+.footer-container  {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.about-text-content-left {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+
+.about-text-content-right {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 768px) {
+  /* Tablet styles here */
+  .heading-text-content,
+  .nav ul
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%
+  }
+
+  .heading-title-content {
+    padding-left: 20px;
+  }
+
+  .nav {
+    padding: 0;
+    margin: 0;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+  /* Desktop styles here */
+
+  .site-container,
+  .about-container,
+  .about-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row wrap;
+  }
+
+  .site-content,
+  .site-thumbnail,
+  .about-content-left,
+  .about-content-right {
+    width: 49%;
+  }
+  .about-content-right{
+    margin: 0;
+  }
+
+  .about-content-img-left,
+  .about-content-img-right {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-flow: column wrap;
+  }
+
+  .about-text-content-left ul li {
+    width: 74%;
+  }
+  .about-text-content-right ul li {
+    width: 75%;
+  }
+
+  .site-thumbnail {
+    padding-left: 20px;
+  }
+
+  .contact-container
+  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+  }
+
+}
