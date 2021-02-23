@@ -152,7 +152,6 @@ textarea {
    }
 
 
-
    .heading-image {
      background-image: url("../img/dave-hoefler-MzPkseAUb2g-unsplash_mirror.jpg");
      background-position: center;
@@ -162,16 +161,16 @@ textarea {
    }
 
    .heading-image-text-content {
-     width: 80%;
      padding-left: 20px;
    }
 
    .heading-image-text-content h1 {
      color: #ffffff;
      font-family: 'Source Code Pro', monospace;
-     font-size: 1.75em;
+     font-size: 1em;
      font-weight: 600;
      line-height: 1.5em;
+      width: 70%;
    }
 
     .site-title {
@@ -284,7 +283,7 @@ textarea {
    }
 
    .about-content-img-left {
-     background-image: url("../img/akhila-katuri-SkiIyI8ySwM-unsplash-top-crop.jpg");
+     background-image: url("../img/akhila-katuri-SkiIyI8ySwM-unsplash-top-crop-mirror.jpg");
      background-repeat: no-repeat;
      background-size: cover;
      width: 100%;
@@ -305,13 +304,17 @@ textarea {
      list-style: none;
    }
 
+/*
    .about-text-content-left ul li {
-     margin-left: 100px;
+     margin-left: 0;
+     color: #951f00;
    }
-
+*/
+   .about-text-content-left ul li ,
    .about-text-content-right ul li {
      margin: 0;
      width: 75%;
+     color: #951f00;
    }
 
    .about-text-content-left ul li,
@@ -389,7 +392,18 @@ textarea {
      width: 90%;
    }
 
-   .heading-image-text-content,
+
+   .heading-image {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+   }
+
+   .heading-image-text-content {
+     width: 100%;
+   }
+
    .site-desc,
    .about-content,
    .footer-container  {
@@ -398,6 +412,7 @@ textarea {
      align-items: center;
      flex-flow: row wrap;
    }
+
 
    .about-text-content-left {
      display: flex;
@@ -530,6 +545,10 @@ textarea {
     padding-left: 20px;
   }
 
+  .heading-image-text-content h1 {
+    width: 50%;
+  }
+
   .nav {
     padding: 0;
     margin: 0;
@@ -541,6 +560,22 @@ textarea {
 
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
+  .heading-image-text-content h1 {
+    width: 40%;
+  }
+
+
+  .about-content-img-left {
+    background-image: url("../img/akhila-katuri-SkiIyI8ySwM-unsplash-top-crop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 0;
+  }
+
+  .about-text-content-left ul li {
+    margin-left: 100px;
+  }
 
   .site-container,
   .about-container,
